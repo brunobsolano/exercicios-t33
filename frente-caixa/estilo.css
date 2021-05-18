@@ -1,0 +1,19 @@
+
+
+body {
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    
+}
+
+.boxpadrao {
+    
+    border: solid 1px black;
+
+}
+
+::placeholder {
+
+    border-bottom: solid 1px gray;
+}

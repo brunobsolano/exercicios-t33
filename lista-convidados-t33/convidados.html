@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Convidados</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregarLista()">
+    <h1 class="titulo texto-centro mt-100">Lista de Convidados</h1>
+    <h2 class="slogan texto-centro">Aqui você fica por dentro</h2>
+
+    <form class="w-400 sm-w-full m-auto">
+        <input id="nome" type="text" class="campo w-full mb-20" placeholder="Nome">
+        <input id="email" type="email" class="campo w-full mb-20" placeholder="Email">
+        <input id="idade" type="number" class="campo w-full mb-20" placeholder="Idade">
+        <div class="texto-direita w-full">
+            <button class="btn btn-primaria" type="button" onclick="adicionarConvidado()">Salvar</button>
+        </div>
+    </form>
+
+    <h2 class="texto-centro">Convidados cadastrados</h2>
+
+    <table class="lista-convidados w-400 sm-w-full m-auto">
+        <thead>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Idade</th>
+        </thead>
+        <tbody id="lista"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
