@@ -1,0 +1,16 @@
+
+div .cartao {
+    border: solid 1px black;
+    width: 650px;
+    padding: 10px;
+    
+}
+
+div .seguranca {
+    float: right;
+}
+
+.nome {
+    padding: 10px;
+    width: 100%;
+}
