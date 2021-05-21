@@ -27,16 +27,16 @@
                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
                 </div>
                 <div>
-                    <input type="text" name="numero" id="numero" placeholder="XXXX">
-                    <input type="text" name="numero" id="numero" placeholder="XXXX">
-                    <input type="text" name="numero" id="numero" placeholder="XXXX">
-                    <input type="text" name="numero" id="numero" placeholder="XXXX">
+                    <input type="text" oninput="verificaCartao()" name="numero" id="numero1" placeholder="XXXX" maxlength="4">
+                    <input type="text" name="numero" id="numero2" placeholder="XXXX" maxlength="4">
+                    <input type="text" name="numero" id="numero3" placeholder="XXXX" maxlength="4">
+                    <input type="text" name="numero" id="numero4" placeholder="XXXX" maxlength="4">
                 </div>
                 <div class="seguranca">
                     <label for="codseguranca">cod.</label>
                     <input type="text" name="codseguranca" id="codseguranca" placeholder="XXX">
                     <label for="bandeira">Bandeira</label>
-                    <input type="text" name="bandeira" id="bandeira" placeholder="Ex.: VISA">
+                    <input type="text" name="bandeira" id="bandeira" placeholder="Ex.: VISA" disabled>
                 </div>
 
             </form>
