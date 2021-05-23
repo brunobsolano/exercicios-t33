@@ -17,17 +17,19 @@
         <input id="email" type="email" class="campo w-full mb-20" placeholder="Email">
         <input id="idade" type="number" class="campo w-full mb-20" placeholder="Idade">
         <div class="texto-direita w-full">
-            <button class="btn btn-primaria" type="button" onclick="adicionarConvidado()">Salvar</button>
+            <button class="btn btn-primaria" type="button" onclick="salvar()">Salvar</button>
+            <button class="btn btn-danger" type="button" onclick="cancelar()">Cancelar</button>
         </div>
     </form>
 
     <h2 class="texto-centro">Convidados cadastrados</h2>
 
-    <table class="lista-convidados w-400 sm-w-full m-auto">
+    <table class="lista-convidados w-600 sm-w-full m-auto">
         <thead>
             <th>Nome</th>
             <th>Email</th>
             <th>Idade</th>
+            <th>Ações</th>
         </thead>
         <tbody id="lista"></tbody>
     </table>

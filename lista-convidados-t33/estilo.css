@@ -2,8 +2,9 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
-    --cor-primaria: rgb(255, 140, 64);
-    --cor-cinza: rgb(56, 56, 56);
+    --cor-primaria: #ff8c40;
+    --cor-cinza: #383838;
+    --cor-danger: #dc143c;
 }
 
 /* CLASSES UTILITÁRIAS */
@@ -40,6 +41,10 @@
     width: 400px;
 }
 
+.w-600 {
+    width: 600px;
+}
+
 .w-700 {
     width: 700px;
 }
@@ -49,7 +54,7 @@
 }
 
 .bg-red {
-    background-color: red;
+    background-color: var(--cor-danger);
 }
 
 @media (max-width: 640px) {
@@ -101,6 +106,10 @@
     background-color: var(--cor-primaria);
 }
 
+.btn-danger {
+    background-color: crimson;
+}
+
 .lista-convidados {
     border: 1px solid var(--cor-cinza);
     border-radius: 5px;
@@ -114,4 +123,8 @@
 }
 .lista-convidados tbody tr:nth-child(2n) {
     background-color: lightgray;
+}
+.icone {
+    width: 20px;
+    margin-right: 5px;
 }
