@@ -7,3 +7,4 @@ Repositório dos exercícios da Turma 33 do curso Fábrica de Programador da Hig
  - [Classificador de triângulos](./classificador-triangulos/)
  - [frente-caixa](./frente-caixa)
  - [lista-convidados-t33](./lista-convidados-t33)
+ - [Soletrando-bandeiraCartao](./Soletrande-bandeiraCartao)
